@@ -1,0 +1,45 @@
+
+.container{
+    background-color: brown;
+    width: 50%;
+}
+/* DAFTAR */
+.text-daftar{
+    text-align: center;
+    font-weight: bold;
+}
+
+.mb-3{
+    position: relative;
+}
+.icon{
+    position: absolute;
+    top: calc(50%);
+    left: 0.5rem;
+}
+
+.mb-3 .form-control{
+    left: .5rem;
+    padding-left: 2.5rem;
+}
+
+.iconp{
+    position: absolute;
+    top: calc(50%);
+    left: 0.5rem;
+}
+
+p{
+    padding: 10px 10px;
+    text-align: center;
+}
+
+/* LOGIN */
+.form-check label{
+    width: fit-content;
+}
+
+.btn{
+    padding: 10px 0;
+}
+
