@@ -18,7 +18,7 @@ function displayBlogPosts(posts, container, page) {
         <div class="card-body px-0">
           <h5 class="card-title">${post.title.length > 65 ? post.title.slice(0, 65) + '...' : post.title}</h5>
           <p class="card-text mt-3">${post.text.length > 80 ? post.text.slice(0, 80) + '...' : post.text}</p>
-          <button class="btn btn-outline-primary">Lihat Semuanya</button>
+          <button class="btn btn-outline-primary">Lihat Selengkapnya</button>
         </div>
       </div>
     `;
