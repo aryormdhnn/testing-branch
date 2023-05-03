@@ -27,7 +27,7 @@ function displayBlogPosts(posts, container, page) {
 }
 
 function fetchBlogPosts(page) {
-  fetch(`https://6449942fb88a78a8f00b50c0.mockapi.io/blog-posts?page=${page}`)
+  fetch(`https://64527375bce0b0a0f7475dda.mockapi.io/blog-posts?page=${page}`)
     .then(response => response.json())
     .then(data => {
       displayBlogPosts(data, blogPostsContainer, currentPage);
