@@ -9,7 +9,7 @@
     --orange: #fd7e14;
     --yellow: #ffc107;
     --green: #077252;
-    --teal: #06b884;
+    --teal: #29b27f;
     --cyan: #17a2b8;
     --white: #fff;
     --gray: #6c757d;
@@ -115,7 +115,7 @@ body a{
 
 .hero{
     margin-top: 3rem;
-    background: url('https://lh3.googleusercontent.com/pw/AMWts8DGG1O3euXh4An5e8eYX3M1eufgv_PfX9It3nsYmFXtaA2Fptho87aZiDwK625A3wRZa6nRFizHF6yaQ2LRZolgfd1PupUZhsL_g0mxF3wpP1eBfRbsqCTPThtRY7dUgBcPG2I9GqSd35vBWMsxJ1o=w1366-h558-s-no?authuser=0');
+    background: url('image/banner.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -693,9 +693,12 @@ body a{
             padding: 1rem;
         }
        .artikel-content .card-artikel .judul{
+        width: 100%;
+        height: 7rem;
         font-size: 1.5rem;
         margin-top: 1rem;
         font-weight: 700;
+        overflow-y: hidden;
         color: var(--gray-dark);
     
        }
@@ -707,6 +710,9 @@ body a{
        }
     
        .artikel-content .card-artikel .desc{
+        width: 100%;
+        overflow-y: hidden;
+        height: 3rem;
         margin-top: 0.5rem;
         font-size: 16px;
         font-weight: 400;
@@ -902,6 +908,50 @@ body a{
 
     } */
 
+
+/* Daftar */
+
+.daftar{
+    margin-top: 120px;
+    height: 394px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(59, 183, 143, 0.12);
+    ;
+}
+
+.daftar-title{
+    text-align: center;
+    width: 865px;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+    color: var(--gray-dark);
+}
+
+.daftar form{
+    background-color: white;
+    border-radius: 12px;
+    padding: 21px 24px;
+    margin: 0;
+    margin-top: 2rem;
+}
+
+.daftar form input{
+    margin-right: 124px;
+}
+.daftar form button{
+    padding: 8px;
+    border-radius: 12px;
+    width: 164px;
+    height: 48px;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: var(--teal);
+    color: var(--white);
+}
 
 
     /* Footer */
