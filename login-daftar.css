@@ -1,0 +1,134 @@
+:root{
+    --primary-color: #000;
+    --bg: #fff;
+    --blue: #007bff; 
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #077252;
+    --teal: #29b27f;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #070717;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa; 
+    --dark: #343a40;
+
+}
+
+
+/* Navbar */
+
+.navbar-action-item
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    width: 144px;
+    height: 48px;
+    margin: 0 1rem;
+    font-weight: 600;
+    color: var(--teal);
+    transition: all 0.3s ease;
+    border-radius: 12px;
+    border: 1px solid var(--teal);
+    text-decoration: none;
+    font-size: 14px;
+
+}
+
+.navbar-action-item:hover{
+    color: var(--teal);
+    border-color: var(--green);
+}
+.btn-primary
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 144px;
+    height: 48px;
+    font-size: 14px;
+    padding: 8px;
+    margin: 0;
+    font-weight: 600;
+    background-color: var(--teal);
+    color: var(--white);
+    transition: all 0.3s ease;
+    border-radius: 12px;
+    border: 1px solid var(--teal);
+    text-decoration: none;
+}
+
+.btn-primary:hover{
+    border: 2px solid var(--green);
+    background-color: var(--green);
+}
+
+.icon-menu{
+    display: flex;
+    margin: 0 0.8rem;
+    align-items: center;
+    transition: 0.3s ease;
+    color: var(--gray-dark);
+}
+
+.icon-menu:hover{
+    color: var(--teal);
+    transition: 0.3s ease;
+}
+
+
+.container{
+    background-color: brown;
+    width: 50%;
+}
+/* DAFTAR */
+.text-daftar{
+    text-align: center;
+    font-weight: bold;
+}
+
+.mb-3{
+    position: relative;
+}
+.icon{
+    position: absolute;
+    top: calc(50%);
+    left: 0.5rem;
+}
+
+.mb-3 .form-control{
+    left: .5rem;
+    padding-left: 2.5rem;
+}
+
+.iconp{
+    position: absolute;
+    top: calc(50%);
+    left: 0.5rem;
+}
+
+p{
+    padding: 10px 10px;
+    text-align: center;
+}
+
+/* LOGIN */
+.form-check label{
+    width: fit-content;
+}
+
+.btn{
+    padding: 10px 0;
+}
+
